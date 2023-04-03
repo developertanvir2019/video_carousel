@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 5 Carousel</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+ <section class="home">
+  <div id="carousel" class="carousel slide" data-ride="carousel">
+  <div class="carousel-controls">
+    <ol class="carousel-indicators">
+      <li data-target="#carousel" data-slide-to="0" class="active" style="background-image:url('img/headphone.png')"></li>
+      <li data-target="#carousel" data-slide-to="1" style="background-image:url('img/headphone-2.png')"></li>
+      <li data-target="#carousel" data-slide-to="2" style="background-image:url('img/mobile-10.png')"></li>
+      
+    </ol>
+    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+     <img src="img/left-arrow.svg" alt="Prev"> 
+  </a>
+  <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+    <img src="img/right-arrow.svg" alt="Next">
+  </a>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <video class="myVideo" loop muted autoplay="autoplay">
+        <source src="img/headphone-2.mp4" type="video/mp4">
+    </video>
+      <div class="container">
+         <h2>JBL TUNE 760NC</h2>
+         <p>Boss of Bass</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <video class="myVideo" loop muted autoplay="autoplay">
+        <source src="img/headphone-3.mp4" type="video/mp4">
+    </video>
+      <div class="container">
+         <h2>BL TUNE 760NC</h2>
+         <p>Boss of Bass</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <video class="myVideo" loop muted autoplay="autoplay">
+        <source src="img/Mobile.mp4" type="video/mp4">
+    </video>
+      <div class="container">
+         <h2>IPHONE 14 Pro MAX</h2>
+         <p>The best gets even better</p>
+      </div>
+    </div>
+  </div>
+</div>
+ </section>
+
+ 
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
